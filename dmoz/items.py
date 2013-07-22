@@ -7,10 +7,7 @@ from scrapy.item import Item, Field
 
 class DmozItem(Item):
     title = Field()
-    description = Field()
-    category = Field()
-    tags = Field()
-    pic = Field()
-    size = Field()
-    sourceid= Field()
+    link = Field()
+    snippet = Field()
+
 

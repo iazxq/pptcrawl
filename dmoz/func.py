@@ -57,8 +57,11 @@ def get_new_upload_dir():
 
 def get_new_filename(filename):
     '返回新的文件名,利用Unix时间戳'
-    f,ext=os.path.splitext(filename)
-    return '%s%s'%(int(float(time.time()*1000)),ext)
+    try:
+        f,ext=os.path.splitext(filename)
+        return '%s%s'%(int(float(time.time()*1000)),ext)
+    except:
+        return ''
 
 
 def array_to_str(value,split_str='/'):

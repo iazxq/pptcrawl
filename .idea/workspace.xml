@@ -4,9 +4,12 @@
     <list default="true" id="b0a8884f-4f8d-48fe-8599-accfd99aa7a5" name="Default" comment="" />
     <ignored path="pptcrawl.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/dmoz_spider.py" changelist="b0a8884f-4f8d-48fe-8599-accfd99aa7a5" time="1374217093698" ignored="false" />
+    <file path="/dmoz_spider.py" changelist="b0a8884f-4f8d-48fe-8599-accfd99aa7a5" time="1374479951777" ignored="false" />
     <file path="$PROJECT_DIR$/../pdpoll/app/service/ppt.py" changelist="b0a8884f-4f8d-48fe-8599-accfd99aa7a5" time="1374219555391" ignored="false" />
     <file path="/ppt.py" changelist="b0a8884f-4f8d-48fe-8599-accfd99aa7a5" time="1374219549232" ignored="false" />
+    <file path="/items.py" changelist="b0a8884f-4f8d-48fe-8599-accfd99aa7a5" time="1374477649203" ignored="false" />
+    <file path="/pipelines.py" changelist="b0a8884f-4f8d-48fe-8599-accfd99aa7a5" time="1374480296273" ignored="false" />
+    <file path="/func.py" changelist="b0a8884f-4f8d-48fe-8599-accfd99aa7a5" time="1374480090882" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +47,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dmoz_spider.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dmoz_spider.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dmoz/spiders/dmoz_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="30" selection-start="870" selection-end="870" vertical-scroll-proportion="0.27812114">
+            <state line="53" column="66" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#24#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmoz/func.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="35" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallary.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmoz/gallary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imagefactory.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmoz/imagefactory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmoz/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="19" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logger.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmoz/logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dmoz/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="11" selection-start="396" selection-end="396" vertical-scroll-proportion="0.57471263">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py.bak" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmoz/pipelines.py.bak">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,7 +131,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/dmoz/items.py" />
         <option value="$PROJECT_DIR$/dmoz/spiders/dmoz_spider.py" />
+        <option value="$PROJECT_DIR$/dmoz/func.py" />
+        <option value="$PROJECT_DIR$/dmoz/pipelines.py" />
       </list>
     </option>
   </component>
@@ -71,7 +142,7 @@
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1678" />
-    <option name="height" value="996" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -132,24 +203,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pptcrawl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pptcrawl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dmoz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -158,6 +211,46 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pptcrawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pptcrawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1678" height="996" extended-state="0" />
+    <frame x="1" y="1" width="1678" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -280,6 +373,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dmoz/gallary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoz/imagefactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoz/spiders/dmoz_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="66" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#24#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoz/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dmoz/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="19" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
@@ -287,9 +410,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmoz/spiders/dmoz_spider.py">
+    <entry file="file://$PROJECT_DIR$/dmoz/func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="30" selection-start="870" selection-end="870" vertical-scroll-proportion="0.27812114">
+        <state line="71" column="35" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoz/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoz/pipelines.py.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoz/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="396" selection-end="396" vertical-scroll-proportion="0.57471263">
           <folding />
         </state>
       </provider>
